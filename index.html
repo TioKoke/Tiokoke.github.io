@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Code</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="shortcut icon" href="img/alura.png" type="image/x-icon">
+</head>
+<body>
+    <section class="contenedor-fondo-animado">
+        <div class="animacion">
+            <!--  -->
+            <span class="uno"></span>
+            <span class="dos"></span>
+            <span class="tres"></span>
+            <span class="cuatro"></span>
+            <!--  -->
+            <span class="uno"></span>
+            <span class="dos"></span>
+            <span class="tres"></span>
+            <span class="cuatro"></span>
+            <!--  -->
+            <span class="uno"></span>
+            <span class="dos"></span>
+            <span class="tres"></span>
+            <span class="cuatro"></span>
+        </div>
+        <div class="seccion-contenido">
+            <div class="contenido">
+                <header>
+                    <a href="https://www.aluracursos.com/"><img src="img/logo_alura.png" class="logo"></a>
+                </header>
+                <main>
+                    <div class="txtIngreso">
+                        <div>
+                            <textarea class="texto" id="cuadroTexto" cols="20" rows="10" placeholder="Ingrese el texto a encriptar"></textarea>
+                        </div>
+                        <div class="boton">
+                            <button id="btnEncriptar" onclick="encriptar()">encriptar</button>
+                            <button id="btnDesencriptar" onclick="desencriptar()">Desencriptar</button>
+                        </div>
+                    </div>
+                    <div class="txtSalida">
+                        <div class="visualizador">
+                            <textarea id="cuadroTextoEncriptado" cols="20" rows="10"></textarea>
+                        </div>
+                        <button id="btnCopiar" onclick="copiar()">Copiar</button>
+                    </div>
+                </main>
+                <footer>
+                    <div class="icono">
+                        <a href="https://www.linkedin.com/in/jorgetapiam/"><img src="img/linkedIn.png" ></a>
+                        <a href="https://github.com/TioKoke"><img src="img/Git.png" ></a>
+                        <a href="https://www.instagram.com/koke_kun/"><img src="img/Instagram.png" ></a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
